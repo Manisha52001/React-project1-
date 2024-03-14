@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+article{
+  background-color: rgb(97, 73, 120);
+  border: 1px solid rgb(83, 73, 73);
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+article h1{
+  font-size: 20px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+article main{
+  display: flex;
+}
+
+article main form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  width: 40%;
+}
+
+article main form label{
+  color: white;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+article main form input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(46, 45, 45);
+}
+
+article main form button{
+  background-color: rgb(244, 239, 239);
+  border: 1px solid rgb(75, 74, 74);
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* css for todo */
+
+.todo h2{
+  font-size: 20px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: 300;
+  border-bottom: 1px solid rgb(220, 210, 210);
+}
+
+.todo table{
+  width: 100%;
+  /* border: 1px solid rgb(45, 44, 44); */
+  padding: 10px;
+}
+
+.todo thead{
+  padding: 10px;
+}
+
+.todo table tr,th,td{
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: fit-content;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+#delete , #update{
+  /* background-color: rgb(244, 239, 239); */
+  border: 1px solid rgb(75, 74, 74);
+  border-radius: 4px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#delete{
+  background-color: rgb(205, 69, 69);
+}
+
+#update{
+  background-color: rgb(26, 134, 26);
+}
